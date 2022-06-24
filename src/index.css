@@ -3,7 +3,7 @@
   float:left;
 }
 body{
-  height: 1250px;
+  height: 1150px;
   background-color: rgb(238, 212, 238);
 }
  /* .nav_header{
@@ -34,6 +34,13 @@ body{
   flex-direction: column;
   justify-content: space-between;
   background-color: rgb(238, 212, 238);  
+}
+.image_grid{
+  align-self: center;
+  width:850px;
+  position: relative;
+  margin-top: 71px;
+  margin-left: 50%;
 }
 .MainGrid{
   position: absolute;
@@ -113,7 +120,7 @@ body{
 }
 .HeroText > h2{
   position: relative;
-  margin-top: 750px;
+  margin-top: 670px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: x-large;
 }
@@ -125,11 +132,10 @@ body{
 }
 .PlayerRatings{
   display: flex;
-  margin-top: 75%;
-  padding-left: 300px;
+  margin-top: 15%;
+  padding-left: 60px;
   width: 100%;
   background-color:rgb(238, 212, 238) ;
-  overflow: scroll;
 }
 .PlayerCards{
   width: 180px;
