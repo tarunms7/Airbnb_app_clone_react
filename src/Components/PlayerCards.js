@@ -1,12 +1,12 @@
 import React from "react";
 import "../index.css"
-import star from "../images/red_star.ico"
+
 export default function PlayerCards(props){
     return(
         <div className = "PlayerCards">
             <img className = "PlayerCards_player" src = {props.player}/>
             <div className = "PlayerCard_info">
-                <img className = "star" src = {star}/>
+                <img className = "star" src = "/images/red_star.ico"/>
                 <p style = {{"margin-left" : "5px"}}>{props.rating}({props.count_of_people}) • Online</p>
                 
             </div>
@@ -15,3 +15,6 @@ export default function PlayerCards(props){
         </div>
     )
 }
+
+
+ 
